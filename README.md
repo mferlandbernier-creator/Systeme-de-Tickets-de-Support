@@ -16,7 +16,7 @@ Equipe :
 
 - cd Systeme-de-Tickets-de-Support
 
-- python main.py
+- python gestion.py
 
 ---
 
