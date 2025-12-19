@@ -4,8 +4,9 @@ def initialiser_projet():
 	print("1. Créer dépôt GitHub")
 	print("2. Cloner sur toutes les machines")
 	print("3. Créer branches :")
-	print("   - git checkout -b feature-membre1")
-	print("   - git checkout -b feature-membre2")
-	print("   - git checkout -b feature-membre3")
-	print("   - git checkout -b feature-membre4")
+    print("   - git checkout -b feature-classe_ticket Marie-Ève Ferland-Bernier") 
+    print("   - git checkout -b feature/gestion-crud Jeremy Noivo") 
+    print("   - git checkout -b feature-interface Jean-Simon Cyr") 
+    print("   - git checkout -b feature-sauvegarde Eva Bessette") 
+
 	print("4. Commencer à coder !")
