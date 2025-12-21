@@ -13,7 +13,7 @@ def generer_nouvel_id(tickets: list) -> int:
 
 def creer_ticket(tickets: list, titre: str, description: str, auteur: str, priorite: str = "moyenne"):
     # Import local pour éviter certains problèmes d'import
-    from tickets.ticket import Ticket
+    from ticket import Ticket
 
     nouvel_id = generer_nouvel_id(tickets)
     ticket = Ticket(nouvel_id, titre, description, auteur, priorite)
