@@ -1,3 +1,9 @@
+from gestion import *
+
+generer_nouvel_id() 
+
+
+
 from interface import *
 
 interface()
