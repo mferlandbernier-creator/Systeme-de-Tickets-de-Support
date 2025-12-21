@@ -1,5 +1,3 @@
-# tickets/gestion.py
-
 def generer_nouvel_id(tickets: list) -> int:
     if len(tickets) == 0:
         return 1
